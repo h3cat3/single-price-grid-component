@@ -1,0 +1,13 @@
+@media (min-width: 1024px) {
+    .card {
+        width: 39.6875rem;
+        margin-top: 5rem;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .subscription {width: 50%}
+    .footer {width: 50%;}
+}

@@ -1,0 +1,91 @@
+:root {
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+--White: #fff;
+}
+
+body {
+    font-family: "Karla", serif;
+    background-color: var(--Light-Gray);
+    
+}
+.button:hover {opacity: 80%;}
+.card {
+    width: 19.4375rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3125rem;
+}
+
+header {
+    padding: 1.75rem 2rem;
+    background-color: var(--White);
+}
+.subscription {
+    background-color: var(--Cyan);
+    padding: 1.75rem 2rem;
+}
+.footer {
+    background-color: var(--Cyan);
+    opacity: 75%;
+    padding: 1.75rem 2rem;
+}
+.heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--Cyan);
+    margin-bottom: 1rem;
+}
+.atract {
+ font-size: 0.9375rem;
+ font-weight: 400;
+ color: var(--Bright-Yellow);
+ margin-bottom: 1rem;
+}
+.description {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--Grayish-Blue);
+
+}
+.title {
+    font-size: 1.125rem;
+    color: var(--White);
+    margin-bottom: 1rem;
+}
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--White);
+}
+.month {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--White);
+    opacity: 50%;
+    margin-bottom: 1rem;
+}
+.details {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--White);
+    margin-bottom: 1rem;
+}
+.button {
+    width: 100%;
+    background-color: var(--Bright-Yellow);
+    border: none;
+    height: 3em;
+    border-radius: 0.3125rem;
+    color: var(--White);
+    font-size: 1rem;
+}
+.about {
+    font-size: 0.875;
+    color: var(--White);
+    opacity: 75%;
+    font-weight: 700;
+}
